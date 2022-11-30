@@ -18,6 +18,7 @@ hbs.registerPartials(partialPath);
 
 app.get("/", (req, res) => {
   const { adress } = req.query;
+  q;
   if (!adress) {
     return res.render("index", {
       name: "@roman atamanchuk",
