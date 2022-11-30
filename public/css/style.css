@@ -1,0 +1,55 @@
+body {
+  color: #000000;
+  font-family: arial;
+  font-size: 1.2rem;
+  font-weight: bold;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("/img/weather.png");
+}
+.main-content {
+  flex: 1;
+}
+footer {
+  color: #888888;
+  border-top: 1px solid #eeeeee;
+  margin-top: 16px;
+  padding: 16px 0;
+}
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+header a {
+  color: #ff9500;
+  margin-right: 16px;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.portrait {
+  border-radius: 100%;
+  box-shadow: 1px 1px 12px 1px grey;
+  width: 250px;
+  height: 220px;
+}
+input {
+  padding: 8px;
+}
+button {
+  border: 1px solid #888888;
+  cursor: pointer;
+  background-color: #888888;
+  padding: 8px;
+  box-shadow: 1px 1px 2px 1px rgb(48, 48, 48);
+}
+button:active {
+  box-shadow: -1px 0px 0px 0px rgb(48, 48, 48);
+}
