@@ -1,7 +1,7 @@
 import express from "express";
 import gotWeather from "./utils/geocode.js";
 import getWeather from "./utils/forecast.js";
-
+console.log("getWeather");
 import hbs from "hbs";
 import path, { dirname } from "path";
 import { fileURLToPath } from "url";
